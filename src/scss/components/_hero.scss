@@ -1,9 +1,8 @@
 .hero {
   color: var(--grey-color);
-  display: flex;
-  justify-content: center;
   height: 100vh;
   &__container {
+    padding: 15rem 0 5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,6 +49,7 @@
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem 2rem;
+    word-wrap: break-word;
     &_completed {
       color: #b6b6b6;
       text-decoration: line-through;
