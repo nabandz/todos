@@ -1,0 +1,9 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --content-width: 1440px;
+  --container-offset: 20px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --light-color: #fafafa;
+  --dark-color: #0a0a0a;
+}
